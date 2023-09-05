@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>EOLE</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.polarsys.capella.project.nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Templates/LogicalTemplate.docx</name>
+			<type>1</type>
+			<location>C:/Arcadia/capella/workspace/EOLE/LogicalTemplate.docx</location>
+		</link>
+	</linkedResources>
+</projectDescription>
