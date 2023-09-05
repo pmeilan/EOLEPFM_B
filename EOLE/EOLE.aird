@@ -200,7 +200,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Function%20Breakdown']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="EOLE.capella#ed01f812-c40b-401e-a05f-bac55fd47e98"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_fNVqIDasEe6myYSUgelfVw" name="[MCB] EOLE Mission &amp; Capabilities" repPath="#_fNR_wDasEe6myYSUgelfVw" changeId="1693331624631">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_fNVqIDasEe6myYSUgelfVw" name="[MCB] EOLE Mission &amp; Capabilities" repPath="#_fNR_wDasEe6myYSUgelfVw" changeId="1693933604452">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg" href="EOLE.capella#9c539b7f-6902-479c-b69e-c72a7b9b341b"/>
       </ownedRepresentationDescriptors>
@@ -13391,7 +13391,7 @@
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_LiYbFzavEe6myYSUgelfVw" type="Description"/>
           <styles xmi:type="notation:TextStyle" xmi:id="_LiYbEzavEe6myYSUgelfVw" textAlignment="Center"/>
           <styles xmi:type="notation:LineTypeStyle" xmi:id="_LiYbFDavEe6myYSUgelfVw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LiYbFTavEe6myYSUgelfVw" x="-100" y="111" width="320" height="40"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LiYbFTavEe6myYSUgelfVw" x="-40" y="160" width="320" height="40"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_h9UBIDbdEe6myYSUgelfVw" type="Note" element="_DCZLoDbeEe6myYSUgelfVw" fontName="Segoe UI" fillColor="10941132" transparency="0" lineColor="1345869" lineWidth="1">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_h9UBITbdEe6myYSUgelfVw" source="specificStyles">
@@ -13551,7 +13551,7 @@
           <styles xmi:type="notation:ArrowStyle" xmi:id="_S4no0TavEe6myYSUgelfVw"/>
           <styles xmi:type="notation:LineTypeStyle" xmi:id="_S4no0javEe6myYSUgelfVw"/>
           <element xsi:nil="true"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S4no0zavEe6myYSUgelfVw" points="[4, 0, -340, -34]$[334, 33, -10, -1]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S4no0zavEe6myYSUgelfVw" points="[4, -1, -280, 14]$[274, -15, -10, 0]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S5ZE4DavEe6myYSUgelfVw" id="(0.9884615384615385,0.475)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TmI2IDavEe6myYSUgelfVw" id="(0.14285714285714285,0.30434782608695654)"/>
         </edges>
@@ -13566,7 +13566,7 @@
           <styles xmi:type="notation:ArrowStyle" xmi:id="_nOj4UTbdEe6myYSUgelfVw"/>
           <styles xmi:type="notation:LineTypeStyle" xmi:id="_nOj4UjbdEe6myYSUgelfVw"/>
           <element xsi:nil="true"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nOj4UzbdEe6myYSUgelfVw" points="[0, 0, -482, -449]$[460, 429, -22, -20]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nOj4UzbdEe6myYSUgelfVw" points="[0, 0, -422, -400]$[400, 380, -22, -20]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nPJuMDbdEe6myYSUgelfVw" id="(0.11875,1.0)"/>
         </edges>
       </data>
