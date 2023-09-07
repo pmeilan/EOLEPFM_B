@@ -2590,7 +2590,8 @@
                 id="20d9f71b-4a63-4923-850b-6357ba8762a1" name="Acquisition Subsystem"
                 representedInstance="#94746e24-4635-4ded-bf16-736ecfe287c5"/>
             <ownedInstanceRoles xsi:type="org.polarsys.capella.core.data.interaction:InstanceRole"
-                id="ecd83de8-0202-4a64-a57c-4547a44a0438" name="Groud Subsystem" representedInstance="#f4f7b093-8d88-4e3e-9738-5d56ec74a8d9"/>
+                id="ecd83de8-0202-4a64-a57c-4547a44a0438" name="Ground Subsystem"
+                representedInstance="#f4f7b093-8d88-4e3e-9738-5d56ec74a8d9"/>
             <ownedMessages xsi:type="org.polarsys.capella.core.data.interaction:SequenceMessage"
                 id="651d2ef3-ea87-4985-a24a-4e51bd1694e6" name="Environmental conditions"
                 kind="ASYNCHRONOUS_CALL" sendingEnd="#9881343c-e01a-4362-894b-7f552653a282"
@@ -2833,14 +2834,14 @@
                 sourceElement="#388c6cd5-5a57-4bf6-9ff7-3ec432f6da89"/>
           </ownedComponentExchanges>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f4f7b093-8d88-4e3e-9738-5d56ec74a8d9"
-              name="Groud Subsystem" abstractType="#b32e6280-362d-426b-9eb4-c310f5886bda"/>
+              name="Ground Subsystem" abstractType="#b32e6280-362d-426b-9eb4-c310f5886bda"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="94746e24-4635-4ded-bf16-736ecfe287c5"
               name="Acquisition Subsystem" abstractType="#102bfcc5-1f4e-4552-8340-a3fb74f44ae0"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="29af7b24-d02d-4cdd-8fd6-f5600b5157c2" targetElement="#7ee8f98f-b0dc-43c8-9c92-ea8761507dc0"
               sourceElement="#f9c01afc-79ef-4edc-b95b-e9ba37f90ab8"/>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="b32e6280-362d-426b-9eb4-c310f5886bda" name="Groud Subsystem">
+              id="b32e6280-362d-426b-9eb4-c310f5886bda" name="Ground Subsystem">
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="698dfc08-8277-493e-9b93-d046d9a6be50" targetElement="#21157ed7-a365-4dfb-8fe6-843e19a9d4c2"
                 sourceElement="#b32e6280-362d-426b-9eb4-c310f5886bda"/>

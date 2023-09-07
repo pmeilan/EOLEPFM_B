@@ -67,7 +67,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_bZ1Y4CQMEe6Aj_Ohab5_ZA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_YrJWUDeaEe6rIdY19VeWSQ" documentation="&lt;p>On this level, we see that the Functional Exchange&amp;nbsp;Collected Data crosses the border of the two Componentes.&amp;nbsp;&amp;nbsp;&lt;/p>&#xA;" name="[LAB] Logical System Structure" repPath="#_YrAzcDeaEe6rIdY19VeWSQ" changeId="1694087047449">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_YrJWUDeaEe6rIdY19VeWSQ" documentation="&lt;p>On this level, we see that the Functional Exchange&amp;nbsp;Collected Data crosses the border of the two Componentes.&amp;nbsp;&amp;nbsp;&lt;/p>&#xA;" name="[LAB] Logical System Structure" repPath="#_YrAzcDeaEe6rIdY19VeWSQ" changeId="1694105872811">
         <eAnnotations xmi:type="description:DAnnotation" uid="_Yr3vEDeaEe6rIdY19VeWSQ" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Yr49MDeaEe6rIdY19VeWSQ" key="hide.computed.component.exchanges.filter" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Yr49MTeaEe6rIdY19VeWSQ" key="hide.computed.physical.links.filter" value="true"/>
@@ -75,7 +75,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg" href="EOLE.capella#c7413efa-cf9a-411f-a27a-72336cc859bc"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Mr4cQDfMEe6dYIgw6QQmZA" name="Clone of [LAB] Logical System Structure" repPath="#_Mr0K0TfMEe6dYIgw6QQmZA" changeId="1693866809917">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Mr4cQDfMEe6dYIgw6QQmZA" name="Clone of [LAB] Logical System Structure" repPath="#_Mr0K0TfMEe6dYIgw6QQmZA" changeId="1694105872811">
         <eAnnotations xmi:type="description:DAnnotation" uid="_Mr0K0DfMEe6dYIgw6QQmZA" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Mr8tsDfMEe6dYIgw6QQmZA" key="hide.computed.component.exchanges.filter" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Mr8tsTfMEe6dYIgw6QQmZA" key="hide.computed.physical.links.filter" value="true"/>
@@ -19637,7 +19637,7 @@
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='LAB%20Logical%20Component']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='LAB%20Logical%20Component']"/>
-      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_E0ccMDebEe6rIdY19VeWSQ" name="Groud Subsystem">
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_E0ccMDebEe6rIdY19VeWSQ" name="Ground Subsystem">
         <target xmi:type="org.polarsys.capella.core.data.cs:Part" href="EOLE.capella#f4f7b093-8d88-4e3e-9738-5d56ec74a8d9"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="EOLE.capella#f4f7b093-8d88-4e3e-9738-5d56ec74a8d9"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.la:LogicalComponent" href="EOLE.capella#b32e6280-362d-426b-9eb4-c310f5886bda"/>
@@ -22193,7 +22193,7 @@
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='LAB%20Logical%20Component']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='LAB%20Logical%20Component']"/>
-      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Mr2nEjfMEe6dYIgw6QQmZA" name="Groud Subsystem">
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_Mr2nEjfMEe6dYIgw6QQmZA" name="Ground Subsystem">
         <target xmi:type="org.polarsys.capella.core.data.cs:Part" href="EOLE.capella#f4f7b093-8d88-4e3e-9738-5d56ec74a8d9"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="EOLE.capella#f4f7b093-8d88-4e3e-9738-5d56ec74a8d9"/>
         <semanticElements xmi:type="org.polarsys.capella.core.data.la:LogicalComponent" href="EOLE.capella#b32e6280-362d-426b-9eb4-c310f5886bda"/>
