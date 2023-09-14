@@ -67,7 +67,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_bZ1Y4CQMEe6Aj_Ohab5_ZA">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_YrJWUDeaEe6rIdY19VeWSQ" documentation="&lt;p>On this level, we see that the Functional Exchange&amp;nbsp;Collected Data crosses the border of the two Componentes.&amp;nbsp;&amp;nbsp;&lt;/p>&#xA;" name="[LAB] Logical System Structure" repPath="#_YrAzcDeaEe6rIdY19VeWSQ" changeId="1694373422712">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_YrJWUDeaEe6rIdY19VeWSQ" documentation="&lt;p>On this level, we see that the Functional Exchange&amp;nbsp;Collected Data crosses the border of the two Componentes.&amp;nbsp;&amp;nbsp;&lt;/p>&#xA;" name="[LAB] Logical System Structure" repPath="#_YrAzcDeaEe6rIdY19VeWSQ" changeId="1694720567138">
         <eAnnotations xmi:type="description:DAnnotation" uid="_Yr3vEDeaEe6rIdY19VeWSQ" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Yr49MDeaEe6rIdY19VeWSQ" key="hide.computed.component.exchanges.filter" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Yr49MTeaEe6rIdY19VeWSQ" key="hide.computed.physical.links.filter" value="true"/>
@@ -19013,7 +19013,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_03Z7QjebEe6rIdY19VeWSQ" x="140" y="30" width="10" height="10"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_02BbODebEe6rIdY19VeWSQ" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_02BbOTebEe6rIdY19VeWSQ" x="60" y="150" height="183"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_02BbOTebEe6rIdY19VeWSQ" x="60" y="130" height="183"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_ruK7MDuTEe6XsajTOe70MQ" type="2001" element="_rr-i0DuTEe6XsajTOe70MQ">
           <children xmi:type="notation:Node" xmi:id="_ruLiQDuTEe6XsajTOe70MQ" type="5002">
@@ -19093,17 +19093,17 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_RrX4FDerEe6rIdY19VeWSQ" type="4001" element="_RpDj5DerEe6rIdY19VeWSQ" source="_169sODeqEe6rIdY19VeWSQ" target="_Rq0ecDerEe6rIdY19VeWSQ">
           <children xmi:type="notation:Node" xmi:id="_RrYfIDerEe6rIdY19VeWSQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RrYfITerEe6rIdY19VeWSQ" x="-25" y="29"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RrYfITerEe6rIdY19VeWSQ" x="-24" y="29"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_RrZGMDerEe6rIdY19VeWSQ" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RrZGMTerEe6rIdY19VeWSQ" x="-5" y="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RrZGMTerEe6rIdY19VeWSQ" x="-4" y="8"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Rra7YDerEe6rIdY19VeWSQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rra7YTerEe6rIdY19VeWSQ" x="-3" y="9"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rra7YTerEe6rIdY19VeWSQ" x="-4" y="8"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_RrX4FTerEe6rIdY19VeWSQ" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_RrX4FjerEe6rIdY19VeWSQ" fontColor="16777215" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RrX4FzerEe6rIdY19VeWSQ" points="[5, 1, -290, -59]$[290, 58, -5, -2]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RrX4FzerEe6rIdY19VeWSQ" points="[5, 1, -290, -79]$[290, 78, -5, -2]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Rra7YjerEe6rIdY19VeWSQ" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Rra7YzerEe6rIdY19VeWSQ" id="(0.5,0.5)"/>
         </edges>
@@ -19253,17 +19253,17 @@
         </edges>
         <edges xmi:type="notation:Edge" xmi:id="_4-8vsDesEe6rIdY19VeWSQ" type="4001" element="_01w8gDebEe6rIdY19VeWSQ" source="_03Z7QDebEe6rIdY19VeWSQ" target="_4-rC4DesEe6rIdY19VeWSQ">
           <children xmi:type="notation:Node" xmi:id="_4-8vtDesEe6rIdY19VeWSQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4-8vtTesEe6rIdY19VeWSQ" y="21"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4-8vtTesEe6rIdY19VeWSQ" x="2" y="21"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_4-8vtjesEe6rIdY19VeWSQ" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4-8vtzesEe6rIdY19VeWSQ" y="21"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4-8vtzesEe6rIdY19VeWSQ" x="2" y="20"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_4-8vuDesEe6rIdY19VeWSQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4-8vuTesEe6rIdY19VeWSQ" y="21"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4-8vuTesEe6rIdY19VeWSQ" x="1" y="20"/>
           </children>
           <styles xmi:type="notation:ConnectorStyle" xmi:id="_4-8vsTesEe6rIdY19VeWSQ" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
           <styles xmi:type="notation:FontStyle" xmi:id="_4-8vsjesEe6rIdY19VeWSQ" fontColor="9914954" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4-8vszesEe6rIdY19VeWSQ" points="[5, 0, -218, -20]$[218, 19, -5, -1]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4-8vszesEe6rIdY19VeWSQ" points="[5, 0, -213, -40]$[213, 39, -5, -1]"/>
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4-9WwDesEe6rIdY19VeWSQ" id="(0.5,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4-9WwTesEe6rIdY19VeWSQ" id="(0.5,0.5)"/>
         </edges>
