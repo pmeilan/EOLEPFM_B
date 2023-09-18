@@ -48,7 +48,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Class%20Diagram%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.information:DataPkg" href="EOLE.capella#3872ea18-344e-4fa1-8b6b-3ee61c642faa"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_7CfZIDfKEe6dYIgw6QQmZA" name="[ES] [SES] Acquisition Scenario" repPath="#_7CbuwDfKEe6dYIgw6QQmZA" changeId="1692299551683">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_7CfZIDfKEe6dYIgw6QQmZA" name="[ES] [SES] Acquisition Scenario" repPath="#_7CbuwDfKEe6dYIgw6QQmZA" changeId="1695061521995">
         <description xmi:type="description_2:SequenceDiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']"/>
         <target xmi:type="org.polarsys.capella.core.data.interaction:Scenario" href="EOLE.capella#b3c2b653-9a54-48a1-9d93-262bee6e4cfd"/>
       </ownedRepresentationDescriptors>
@@ -184,7 +184,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Data%20Flow%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemFunction" href="EOLE.capella#ed01f812-c40b-401e-a05f-bac55fd47e98"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_TAvEEDXgEe6P4dx0T805pA" name="[SAB] EOLE" repPath="#_TAqyoDXgEe6P4dx0T805pA" changeId="1693423983732">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_TAvEEDXgEe6P4dx0T805pA" name="[SAB] EOLE" repPath="#_TAqyoDXgEe6P4dx0T805pA" changeId="1695079123878">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:SystemComponentPkg" href="EOLE.capella#e717fcc7-b661-42c2-a818-95db8ec8976a"/>
       </ownedRepresentationDescriptors>
@@ -5017,6 +5017,21 @@
           <styles xmi:type="notation:TextStyle" xmi:id="_aRa2AzbpEe6myYSUgelfVw" textAlignment="Center"/>
           <styles xmi:type="notation:LineTypeStyle" xmi:id="_aRa2BDbpEe6myYSUgelfVw"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aRa2BTbpEe6myYSUgelfVw" x="40" y="710" width="381" height="41"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_kqAT4FZ5Ee6ts66xzt9BLg" type="Note" fontName="Segoe UI" description="Esto es un texto de preueba " fillColor="13369343" transparency="0" lineColor="6737151" lineWidth="1">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kqAT4VZ5Ee6ts66xzt9BLg" source="specificStyles">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kqAT4lZ5Ee6ts66xzt9BLg" key="verticalAlignment" value="8"/>
+          </eAnnotations>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_kqBiAFZ5Ee6ts66xzt9BLg" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_kqBiAVZ5Ee6ts66xzt9BLg" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:TextStyle" xmi:id="_kqAT41Z5Ee6ts66xzt9BLg" textAlignment="Center"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_kqAT5FZ5Ee6ts66xzt9BLg"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kqAT5VZ5Ee6ts66xzt9BLg" x="496" y="22" width="225" height="38"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_TA2Y0jXgEe6P4dx0T805pA"/>
         <edges xmi:type="notation:Edge" xmi:id="_9TS7sDXpEe6P4dx0T805pA" type="4001" element="_clSNYDXpEe6P4dx0T805pA" source="_9TDrIDXpEe6P4dx0T805pA" target="_clfBsDXpEe6P4dx0T805pA">
@@ -21076,7 +21091,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_2:InstanceRoleMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Component%20Exchanges%20Scenario']/@defaultLayer/@nodeMappings[name='Instancerole%20Mapping%20DF']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_7C2lgDfKEe6dYIgw6QQmZA" name="Groud Subsystem" width="15" height="5" resizeKind="EAST_WEST">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_7C2lgDfKEe6dYIgw6QQmZA" name="Ground Subsystem" width="15" height="5" resizeKind="EAST_WEST">
       <target xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="EOLE.capella#ecd83de8-0202-4a64-a57c-4547a44a0438"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.interaction:InstanceRole" href="EOLE.capella#ecd83de8-0202-4a64-a57c-4547a44a0438"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="EOLE.capella#f4f7b093-8d88-4e3e-9738-5d56ec74a8d9"/>
