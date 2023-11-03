@@ -19,7 +19,7 @@
     xmlns:org.polarsys.capella.core.data.oa="http://www.polarsys.org/capella/core/oa/6.0.0"
     xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
     xmlns:org.polarsys.capella.core.data.pa.deployment="http://www.polarsys.org/capella/core/pa/deployment/6.0.0"
-    id="576dd17d-f737-4f88-9d94-a6cfbb6d21aa"
+    xmlns:re="http://www.polarsys.org/capella/common/re/6.0.0" id="576dd17d-f737-4f88-9d94-a6cfbb6d21aa"
     name="EOLE">
   <ownedExtensions xsi:type="libraries:ModelInformation" id="946887d3-b4a8-4d79-b32a-be9f18b4dd46"/>
   <ownedEnumerationPropertyTypes xsi:type="org.polarsys.capella.core.data.capellacore:EnumerationPropertyType"
@@ -41,6 +41,290 @@
       key="projectApproach" value="SingletonComponents"/>
   <ownedModelRoots xsi:type="org.polarsys.capella.core.data.capellamodeller:SystemEngineering"
       id="bf78c249-bd93-4ab7-b682-4d468ca19542" name="EOLE" description="&lt;p>This is a description of EOLE model&lt;/p>&#xA;">
+    <ownedExtensions xsi:type="re:RecCatalog" id="0d4663f1-f4c7-4604-86e0-f81a45776075"
+        name="REC Catalog">
+      <ownedElements xsi:type="re:CatalogElement" id="5ba8337b-ab13-44e4-a3b6-ce87ad118b65"
+          name="Sounding Balloon" description="" defaultReplicaCompliancy="#2fe8ab2d-2be0-4636-acaa-0db407cb5732">
+        <ownedLinks xsi:type="re:CatalogElementLink" id="2be034f5-2f2e-41bb-b10d-fc7d085d06b1"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#55f20c6e-a2d7-46b4-bace-9e8ce882423e"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="5b112483-d4b0-42e2-bf5a-8a50f29581c7"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#eec24633-062d-48a1-85b6-5ba2b42ea607"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="da000f43-1cad-484e-ae37-03277c70b49a"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#fc480994-072c-4398-96fc-98da01390ec2"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="b4b406ce-560f-4036-bd41-ece9162bc643"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#8bf91493-a63d-4db6-995c-1401642f794c"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="4753638b-bbeb-479c-b565-b191dae0d1d3"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#56993368-146f-492d-9d1d-792d5eaf6737"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="1dba8c69-fa6e-4b03-b962-5174d95a9e21"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#8dcb20d2-bdc3-4165-9a19-050bcf8a7dbc"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="d7179a22-91a0-47f3-9b29-d917a55fb050"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#0a9bf908-28ac-441d-aafb-9cc2c97cf1b5"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="9c32bb63-09ee-4a7c-b582-93787a9400ee"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#bfde9214-bed6-40e6-bca3-27297810b1f1"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="83e8e7b2-d909-40fb-8a6a-3306810760d0"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#70b31ead-2775-4615-8d6f-b5dbae4c2d86"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="3d7e8000-a21c-438d-98f9-d1a33025b33d"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#a41a597a-b59c-4668-ae2c-ecc013233455"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="1b0d4aa9-e204-4450-8d90-323a75602332"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#9dc8c43f-9599-4505-86b2-e8c420a2ef15"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="c6c3e0e2-2165-436c-a809-c80d119ca85c"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#10a00009-47b0-45e3-a19d-640c4ae8618a"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="99de1f21-7e2e-4292-a556-f511bf1b0e8f"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#9600d0b2-4f26-43b6-a688-067d168cde8c"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="052c37db-46a1-4e26-b56a-42a41fe91005"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#e746216a-a5fd-4b04-bb40-dbd9c8640907"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="342b83e4-b22f-41c7-9247-9dff62da30bb"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#07987aff-d38e-4fa4-a66a-f84a8a384772"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="4016b438-395e-4cf1-9f53-24566a8a3907"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#51dd30fe-c013-4042-bc07-9dcbb530ee29"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="88243a88-c593-4807-b48b-94d866d299e4"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#69dfeeac-a294-4256-994e-7b777a213cf2"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="da0bfec9-aa25-476e-b4d1-46a2d2f4bd77"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#1bd2b0ee-932a-41df-b286-c05af0291f37"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="2ed159b0-2286-4e9f-a3d4-8f115dc2b6c0"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#2055331e-5b00-4e2b-8171-efb95b2e5426"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="a6436a06-e204-4650-a2bd-7a53cdb6162c"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#_YYatEF01Ee6b9qUGy0bvlA"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="081db978-9b2b-4802-b324-4cf9a1ae980b"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#10430888-855b-413e-9f9c-108956b68254"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="a6d9e9f5-925d-4132-b6c9-f2fb40a7e6f9"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#_Vhp7UF01Ee6b9qUGy0bvlA"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="9a242eac-178b-42d2-b4dd-a37310eb5783"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#3291784b-724e-41cd-8310-b14218c01370"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="e0632efd-d561-43e8-8aa9-a1ee303d2b34"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#506aaed1-f662-4f10-8d3e-5c5a578e48b6"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="6e46e55e-e532-4ccc-ab99-e290bf503328"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#5b5ad97b-68d4-4d07-9c14-c03af14dc6d8"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="a34b89ad-3c8b-4156-9167-359fb56e2093"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#67ba7bd8-b86d-4bb3-b21d-e956019f9b29"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="162156fd-21e6-488b-8ef5-fd5f6abf696d"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#ebaf2b3a-30fb-4c4e-885c-d080f34f2e2d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="19c628e9-72a5-4416-810a-ac4f047100c5"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#9b1f6cc1-30df-4ac3-a6e8-db6324579a01"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="a4e2ba24-8aea-42c2-8c14-251769a5e800"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#022b6e53-1978-4fb0-b07f-13b71792c63b"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="9ac4e540-1764-4fd9-bfa8-38b7f18dc46e"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#e65d164b-a4f4-40b2-9dd7-d8efd1dc00f5"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="6dbae1d4-5df9-47a5-b935-0f158c457cf7"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#0256f42f-ec5e-433b-b0b7-274c2af6c041"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="455e79b6-b92e-4334-91fc-c7c3dc6c9907"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#f54be134-81f5-4d3e-abd0-4c04f1d65027"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="521ac7b6-4b2a-4063-9e22-2628c318c318"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#e0749823-c366-48bc-bbb4-da2646baa74e"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="3fb2d713-ca02-413f-966a-71d364499ee0"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#a5b8b5d8-f39c-4b53-9939-6327a10bba65"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="a7dcc95f-dc1e-4a87-be7f-529197dc899b"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#01f449c1-5b99-45ba-b48e-c0b5ce79f980"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="3980a282-0973-4664-bd30-773e7cf54816"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#f385bfe8-8339-4ba7-aa5f-b34e4c9b3275"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="2fe2583d-f6a7-4970-8de3-dce8f8829f75"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#a6bd808d-feac-4523-bb8a-b4bee190ae90"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="f70c18ea-84a2-4554-b513-7848dfe6aab9"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#e4f1cb1b-832c-40e9-916e-b78d2263c9e1"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="77e7fbb1-5718-457d-8744-1bc14fe1da91"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#8092be6b-cf63-46f1-8dcd-1489c9d95272"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="2a351484-761b-467d-b425-67c84b402379"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#4be970bf-20a1-4c04-b485-f0361bd2c87f"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="256d5704-5384-4af7-b037-d6b538b1cc8d"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#c1b41f93-8758-4641-8a92-0406a66acb01"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="0d559adc-1d88-4b8b-a850-03726be849d7"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#c4002b0d-0260-4aa6-b419-8a606d1b7460"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="7e48d404-8517-43f9-a26f-55da6697f41b"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#8bba6bcf-3ce1-4423-971f-6f41f49fb9ef"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="a43a68c0-cb6b-49dd-9b3f-396e21ccda8f"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#23d35f8a-4ef6-48bc-8bcc-0f69a4fe102a"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="fbf463b9-62b2-43a3-9e08-58d86e8a99cc"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#ade425bf-8e0c-46e3-b501-84049494432d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="be0f9aef-6c25-4f8a-a115-8cf214e61797"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#900e647f-c5b8-4510-a253-b302107227c5"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="c67c6f74-87c6-484a-950c-69e9b31302e4"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#76974c95-c52e-443b-b34b-aaee57c5ba99"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="83adc490-fafa-42c4-902a-f13f9cf45270"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#45cee09a-e497-414a-8a6c-12db6505805e"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="b2dfb8f8-d47c-4d3e-9db8-66566898a1c3"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#b08c4991-b663-45d0-b82b-e4b8e0ef018c"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="4b75ba48-1428-46e2-83f1-f079ce2a4383"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#7df20e5a-621b-4a66-8e30-d27329611efc"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="2381376b-ea32-4031-8921-b0c37e6a6906"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#f0b7f018-3925-4558-bb99-373abca75173"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="14017070-21dc-4fd4-928f-9f8e0b6e3da9"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#_SfCe4F01Ee6b9qUGy0bvlA"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="00342944-899a-4235-afc8-93c8ce83774c"
+            source="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65" target="#ad0d1a6d-1942-4d2c-9c90-e23de1569340"/>
+      </ownedElements>
+      <ownedElements xsi:type="re:CatalogElement" id="d46d6b24-f44b-4c58-962d-737be4babc73"
+          name="Sounding Balloon_1" kind="RPL" suffix="_1" readOnly="true" origin="#5ba8337b-ab13-44e4-a3b6-ce87ad118b65"
+          currentCompliancy="#2fe8ab2d-2be0-4636-acaa-0db407cb5732" defaultReplicaCompliancy="#2fe8ab2d-2be0-4636-acaa-0db407cb5732">
+        <ownedLinks xsi:type="re:CatalogElementLink" id="67171738-01cc-4db3-857b-ac4be72d4328"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#9ad33343-2eaf-4b78-864e-e06025a7318b"
+            origin="#2be034f5-2f2e-41bb-b10d-fc7d085d06b1"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="2a1aa31b-28cc-448f-8d69-7a0103bb95dd"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#74b59ced-2429-4d8c-aebd-a33d1cbd782e"
+            origin="#5b112483-d4b0-42e2-bf5a-8a50f29581c7"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="171b2ce5-fde7-40ae-8f6a-9a4182c856b3"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#4b7992e6-cda5-4f61-a76b-bda844e214f4"
+            origin="#da000f43-1cad-484e-ae37-03277c70b49a"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="69239101-184d-4442-81f9-e8a775fefa9f"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#eafc6219-b020-4b73-843f-48de1b65bc87"
+            origin="#b4b406ce-560f-4036-bd41-ece9162bc643"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="a9ac38f6-2bd0-4a57-8e76-f1f2c0de9f31"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#87482a88-b716-407d-aa6f-46d3945eddf7"
+            origin="#4753638b-bbeb-479c-b565-b191dae0d1d3"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="76de95c0-880f-4da7-afb9-799307bfc0de"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#fccf6d00-6965-4541-ac18-add25b974500"
+            origin="#1dba8c69-fa6e-4b03-b962-5174d95a9e21"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="14e51627-1735-4847-b24e-8897f75b3e3d"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#e9acc128-a5e3-4c30-8f80-1eda9a6f7d9c"
+            origin="#d7179a22-91a0-47f3-9b29-d917a55fb050"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="52a8cfea-5baa-4f68-9d0f-78e7885b6d93"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#6d2b1071-0785-4535-84a7-81c8dc79575e"
+            origin="#9c32bb63-09ee-4a7c-b582-93787a9400ee"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="484d9e16-9696-4260-ad6b-49646cb111c2"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#b102a2ae-c795-42aa-abce-0e756057e2cd"
+            origin="#83e8e7b2-d909-40fb-8a6a-3306810760d0"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="c8d79fab-69d0-4c08-9ae1-2c2b25448a25"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#ae3cdc34-6cad-41f3-ac94-24a80a038dbd"
+            origin="#3d7e8000-a21c-438d-98f9-d1a33025b33d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="9eb58d9e-640e-41c8-88bb-d4aeada5287c"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#233f0121-5570-4786-9b2f-53190fbdbdca"
+            origin="#1b0d4aa9-e204-4450-8d90-323a75602332"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="b3f8fe4e-3253-4e93-bc72-8c9d9595b804"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#cf75e953-7df4-4980-8a40-6f10ef10ff45"
+            origin="#c6c3e0e2-2165-436c-a809-c80d119ca85c"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="1c59fcfd-63cb-4265-add8-06746d1816bb"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#921b9e9d-f462-4c76-b61a-2f72fed05a1c"
+            origin="#99de1f21-7e2e-4292-a556-f511bf1b0e8f"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="a10dd11d-91c7-415a-9e9d-adadf4dd9426"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#f317502d-31a6-46f3-821f-a45b6f15ee2c"
+            origin="#052c37db-46a1-4e26-b56a-42a41fe91005"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="db2ab3a6-4491-406b-aa9d-cc8c6ca7d630"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#7f08767f-1a4c-4ed9-9346-bf2cbb5993af"
+            origin="#342b83e4-b22f-41c7-9247-9dff62da30bb"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="eb36a1c0-c2b4-4e51-ba92-71e304260c20"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#1e28e6f8-4eb4-4b2d-9a8b-8f99f0b59854"
+            origin="#4016b438-395e-4cf1-9f53-24566a8a3907"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="cde7826a-3aea-4999-b9c6-9bc8ee669dc1"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#244f59f6-5601-4dd3-b8eb-0ac457e104f7"
+            origin="#88243a88-c593-4807-b48b-94d866d299e4"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="94de917e-d30e-4597-8ffd-5bcb18a8b73b"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#c404ce9c-f1c8-4e7f-8cba-6faa802efa4d"
+            origin="#da0bfec9-aa25-476e-b4d1-46a2d2f4bd77"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="5e46f2e1-7787-48ae-b37e-5d1017dc9b76"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#a638bccd-7f26-40bc-bb6c-2d60dbba7c7f"
+            origin="#2ed159b0-2286-4e9f-a3d4-8f115dc2b6c0"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="f11c9569-5f11-43f5-9d4b-68452ce7a36c"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#6a4933ee-f6da-47ed-96cc-eaae72848950"
+            origin="#a6436a06-e204-4650-a2bd-7a53cdb6162c"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="fcd7e8b8-099b-40c8-a6e4-68e41da6b18d"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#8e7b89e8-f37e-4f48-b124-d129dcec5788"
+            origin="#081db978-9b2b-4802-b324-4cf9a1ae980b"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="43fd1850-1999-475f-a595-bda6757771f0"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#3df8161c-7c50-4e2b-9a3c-13fabe2d1a0b"
+            origin="#a6d9e9f5-925d-4132-b6c9-f2fb40a7e6f9"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="ed6dd950-62b6-425b-b070-e202c75b80eb"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#90eb0a22-444d-4208-8fd0-aed035df1dd3"
+            origin="#9a242eac-178b-42d2-b4dd-a37310eb5783"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="caa0cc6c-37fc-4115-84f6-aeab1efc0012"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#32f5de55-1c58-4cff-8ce8-b4913b5f77dc"
+            origin="#e0632efd-d561-43e8-8aa9-a1ee303d2b34"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="3140de8f-8cd3-496f-b20c-95c30ae5f85c"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#237cedd3-c301-42a6-80d6-380660349a94"
+            origin="#6e46e55e-e532-4ccc-ab99-e290bf503328"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="5dbf20fb-1e02-4297-8986-5e494ae8cf59"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#894871cb-cf30-4466-aa61-8707651814c5"
+            origin="#a34b89ad-3c8b-4156-9167-359fb56e2093"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="da12bb4c-8277-4194-86fa-afa3068e7b89"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#b354200b-0b4f-497b-9da8-4a229c9f260c"
+            origin="#162156fd-21e6-488b-8ef5-fd5f6abf696d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="23b23c30-0dbf-4b64-b91b-bf5473a97517"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#50ab7b20-c910-4fbd-ab10-1bddc9ebebdf"
+            origin="#19c628e9-72a5-4416-810a-ac4f047100c5"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="bdfdba86-3e5a-40c8-a61d-8d0ebf733cb7"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#b5ea0dd3-7e6b-4c75-9ed1-4b339066517d"
+            origin="#a4e2ba24-8aea-42c2-8c14-251769a5e800"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="ca8386eb-edbf-48e4-8647-148af42c7bb8"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#05930a17-9c29-4e44-bb3f-3004401180a1"
+            origin="#9ac4e540-1764-4fd9-bfa8-38b7f18dc46e"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="c11bac68-10d7-4df5-abfc-7f5cde68ee6a"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#f0f05b26-cc90-4465-99ab-6bd086130b49"
+            origin="#6dbae1d4-5df9-47a5-b935-0f158c457cf7"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="1bcc9361-94a9-42dc-a9fe-732221e1cca8"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#86aec6ef-f6d2-4d74-81f4-90e4385dc8c7"
+            origin="#455e79b6-b92e-4334-91fc-c7c3dc6c9907"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="a11ad914-494d-4e52-b2ba-e553f411a115"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#54cbf82a-7b1d-48b1-b6ce-93d6f8a814db"
+            origin="#521ac7b6-4b2a-4063-9e22-2628c318c318"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="a117e0a6-c0cf-4dd1-9929-3eefb3a6ac31"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#e2510a6a-1401-47e5-9035-cdb4c7d99344"
+            origin="#3fb2d713-ca02-413f-966a-71d364499ee0"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="9ebc351a-c785-42f6-997e-fb5f2e86422d"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#60d9ba03-ba65-4853-8b0f-42b0132a1267"
+            origin="#a7dcc95f-dc1e-4a87-be7f-529197dc899b"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="65e47dd8-a3d7-46b0-a602-f02719f0541c"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#fabee03f-f56c-4c4c-a989-3541507e8689"
+            origin="#3980a282-0973-4664-bd30-773e7cf54816"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="96f7041d-6244-44f7-9fa3-4f4966656cc9"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#61b51ffb-e89b-46e3-8e87-7cc18ec1a4d9"
+            origin="#2fe2583d-f6a7-4970-8de3-dce8f8829f75"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="44d9de2c-ee50-4099-82a5-7451b8b559e7"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#a4840f6a-42d0-4b1b-acba-6a51d9a24c91"
+            origin="#f70c18ea-84a2-4554-b513-7848dfe6aab9"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="cad369b5-40bf-4f5f-aa80-297c6909f9e8"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#948c7d57-c0fa-4128-a333-5d4d27fc13e3"
+            origin="#77e7fbb1-5718-457d-8744-1bc14fe1da91"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="f6f9bcc5-b772-416a-9700-3e5d8142bc8d"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#7ffdcd0f-c19e-458b-9a0c-e430e533b2ae"
+            origin="#2a351484-761b-467d-b425-67c84b402379"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="ee2fe56a-ebda-4b95-bcac-39b0194ba1da"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#6a890d37-23ed-45b5-ae58-1039d1c71953"
+            origin="#256d5704-5384-4af7-b037-d6b538b1cc8d"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="ecbfeee9-df7c-4429-9ce6-d1791d9fb67b"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#a6517f3b-f8c3-47c3-86dd-8965dcdb4030"
+            origin="#0d559adc-1d88-4b8b-a850-03726be849d7"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="7ac16514-e901-4110-83b6-829030de5f2b"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#6f274340-0b23-44d7-936c-b995305fb2ce"
+            origin="#7e48d404-8517-43f9-a26f-55da6697f41b"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="6b7ff938-8427-4697-99f4-f87a780507d5"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#bbc84875-34cc-4a67-a1c5-235c09682519"
+            origin="#a43a68c0-cb6b-49dd-9b3f-396e21ccda8f"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="d74fe3a8-68f0-405f-bae4-e8b3bc192889"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#da99f85c-e0c7-43f0-b7c5-0b94e65550de"
+            origin="#fbf463b9-62b2-43a3-9e08-58d86e8a99cc"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="a0b000af-ba28-47be-b88d-ee3dd739856a"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#e65adf8d-32ef-4423-9636-28546763e422"
+            origin="#be0f9aef-6c25-4f8a-a115-8cf214e61797"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="cb977296-1e52-46e8-b21f-2ec8e68336bc"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#f18f7801-067f-4d94-a9d9-3c7bf9fd9253"
+            origin="#c67c6f74-87c6-484a-950c-69e9b31302e4"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="ec6d81b1-9aa6-437c-be64-c9003aa92480"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#11a16437-eee2-4000-b571-7cc0a2320af8"
+            origin="#83adc490-fafa-42c4-902a-f13f9cf45270"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="706b506a-29c7-4b07-bcb7-b8036473340a"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#779b931e-aed3-4249-b6de-8adc2a95de98"
+            origin="#b2dfb8f8-d47c-4d3e-9db8-66566898a1c3"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="85ff0d81-a5b5-4630-bbf7-124a5081e50a"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#3c2a71bd-3c26-41bc-8941-6ee58eb11d85"
+            origin="#4b75ba48-1428-46e2-83f1-f079ce2a4383"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="7b19a6d8-71ce-4fd9-9f25-a1c992312178"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#0248476e-d2db-452f-a572-7192500ffc1e"
+            origin="#2381376b-ea32-4031-8921-b0c37e6a6906"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="61c5872d-21ad-4d6f-89ae-516d984cca2c"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#58bc5eb7-f152-46f6-ab7e-f9d7b01d9c65"
+            origin="#14017070-21dc-4fd4-928f-9f8e0b6e3da9"/>
+        <ownedLinks xsi:type="re:CatalogElementLink" id="3a6b5ed6-d7bb-42d9-bfef-dcdce1b088b5"
+            source="#d46d6b24-f44b-4c58-962d-737be4babc73" target="#8f189fd7-23b0-4f44-ae3c-e822f1f30d65"
+            origin="#00342944-899a-4235-afc8-93c8ce83774c"/>
+      </ownedElements>
+      <ownedCompliancyDefinitionPkg xsi:type="re:CompliancyDefinitionPkg" id="6c8e4f74-b711-41c6-ab91-2911a93c785c"
+          name="Compliancy Definitions">
+        <ownedDefinitions xsi:type="re:CompliancyDefinition" id="2fe8ab2d-2be0-4636-acaa-0db407cb5732"
+            name="BLACK_BOX"/>
+        <ownedDefinitions xsi:type="re:CompliancyDefinition" id="3bd2923c-fb9a-48cf-adba-c2562e95178d"
+            name="CONSTRAINT_REUSE"/>
+        <ownedDefinitions xsi:type="re:CompliancyDefinition" id="a1b0abad-7582-4613-b0c1-b8db838d1c3f"
+            name="INHERITANCY_REUSE"/>
+      </ownedCompliancyDefinitionPkg>
+    </ownedExtensions>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.oa:OperationalAnalysis"
         id="0291c4c3-bb07-4fbf-83ef-598f1dc71a15" name="Operational Analysis">
       <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="bcd0889b-4b69-4d2f-82e5-e7d82db816c8"
@@ -3262,7 +3546,7 @@
                 <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                     id="fc480994-072c-4398-96fc-98da01390ec2" name="FIP 2"/>
                 <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                    id="8bf91493-a63d-4db6-995c-1401642f794c" name="FOP 1"/>
+                    id="8bf91493-a63d-4db6-995c-1401642f794c" name="FOP 1" outgoingExchangeItems="#9540008d-0870-48d2-a80a-38122442a7ee"/>
               </ownedFunctions>
               <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
                   id="8dcb20d2-bdc3-4165-9a19-050bcf8a7dbc" name="Acquire Pressure">
@@ -3276,7 +3560,7 @@
                       sourceElement="#5b5ad97b-68d4-4d07-9c14-c03af14dc6d8"/>
                 </inputs>
                 <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                    id="67ba7bd8-b86d-4bb3-b21d-e956019f9b29" name="FOP 1"/>
+                    id="67ba7bd8-b86d-4bb3-b21d-e956019f9b29" name="FOP 1" outgoingExchangeItems="#8d77ddab-4dc0-4705-8350-29a74ac67204"/>
               </ownedFunctions>
               <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
                   id="07987aff-d38e-4fa4-a66a-f84a8a384772" name="Split 3" kind="SPLIT">
@@ -3294,15 +3578,130 @@
               <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
                   id="bfde9214-bed6-40e6-bca3-27297810b1f1" name="Gather 4" kind="GATHER">
                 <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                    id="70b31ead-2775-4615-8d6f-b5dbae4c2d86" name="FIP 1"/>
+                    id="70b31ead-2775-4615-8d6f-b5dbae4c2d86" name="FIP 1" incomingExchangeItems="#9540008d-0870-48d2-a80a-38122442a7ee"/>
                 <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                    id="a41a597a-b59c-4668-ae2c-ecc013233455" name="FIP 2"/>
+                    id="a41a597a-b59c-4668-ae2c-ecc013233455" name="FIP 2" incomingExchangeItems="#8d77ddab-4dc0-4705-8350-29a74ac67204"/>
                 <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
-                    id="9dc8c43f-9599-4505-86b2-e8c420a2ef15" name="outCollect Data">
+                    id="9dc8c43f-9599-4505-86b2-e8c420a2ef15" name="outCollect Data"
+                    outgoingExchangeItems="#9540008d-0870-48d2-a80a-38122442a7ee #8d77ddab-4dc0-4705-8350-29a74ac67204">
                   <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
                       id="8144ae08-6d59-48c2-a8d8-a0db676f80d1" targetElement="#8c8792bd-187a-4331-b7ef-4dc30efc0155"
                       sourceElement="#9dc8c43f-9599-4505-86b2-e8c420a2ef15"/>
                 </outputs>
+              </ownedFunctions>
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
+                  id="6dc12bb2-02de-4698-b045-469289b34d12" name="Gather 4" kind="GATHER">
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="e890c76f-9fe2-4b23-a5b0-05655ac65172" name="FIP 1" incomingExchangeItems="#9540008d-0870-48d2-a80a-38122442a7ee"/>
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="794f7ecd-08fa-45c8-89f3-de3cd5a9fec6" name="FIP 2" incomingExchangeItems="#8d77ddab-4dc0-4705-8350-29a74ac67204"/>
+                <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                    id="4749ac54-3e5a-4902-bdeb-5834e75e344c" name="outCollect Data"
+                    outgoingExchangeItems="#9540008d-0870-48d2-a80a-38122442a7ee #8d77ddab-4dc0-4705-8350-29a74ac67204"/>
+              </ownedFunctions>
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
+                  id="5c222f43-1da3-4fa3-bbf3-864e78d275fe" name="Acquire Temperature">
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="98df79ce-e03f-4707-aacf-352bee763f0b" name="FIP 1"/>
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="3a9e00f7-1e8e-41ab-84bc-d9f8f81d950f" name="FIP 2"/>
+                <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                    id="a92a423b-77ad-4133-bf7b-39804709fc69" name="FOP 1" outgoingExchangeItems="#9540008d-0870-48d2-a80a-38122442a7ee"/>
+              </ownedFunctions>
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
+                  id="55bfbaa0-3399-4343-b6cf-69eea3c085f6" name="Split 3" kind="SPLIT">
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="454f709b-5626-4a25-99cf-4ec594d9ee6e" name="FIP 1" incomingExchangeItems="#26e40bd0-f03f-44c2-ad28-a0171801e833"/>
+                <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                    id="5f7328be-fde0-4e6c-991f-f5649b35b22e" name="FOP 1"/>
+                <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                    id="1f5e7b47-d626-425e-94ed-11e562861c51" name="FOP 2"/>
+              </ownedFunctions>
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
+                  id="75612736-d2c1-4b97-b84f-8cd152f7b030" name="Acquire Pressure">
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="2aa7ea82-4f3b-4a58-aa99-a91f4e07fb86" name="FIP 1"/>
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="037798f7-f6c1-4e64-87e8-fd1f89e2aef2" name="inEnvironmental conditions"
+                    incomingExchangeItems="#7fc26f15-3bca-4f2b-9c8b-e9f04f4a89fa"/>
+                <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                    id="6eec931c-4021-4156-9282-7b8f34620bc3" name="FOP 1" outgoingExchangeItems="#8d77ddab-4dc0-4705-8350-29a74ac67204"/>
+              </ownedFunctions>
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
+                  id="976c2471-cc0e-4332-b866-5367e12b07fc" name="Split 3" kind="SPLIT">
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="695ee2b4-6c82-4dc3-9afa-239c4284948d" name="FIP 1" incomingExchangeItems="#26e40bd0-f03f-44c2-ad28-a0171801e833"/>
+                <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                    id="9af062fc-6977-4a77-bd54-5fa95bbb1b60" name="FOP 1"/>
+                <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                    id="aae951d3-c36a-4ffa-b445-f5d98f21d458" name="FOP 2"/>
+              </ownedFunctions>
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
+                  id="77568b07-9eca-4f35-8754-88c2c56d68f3" name="Acquire Temperature">
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="039965bf-c534-4191-96d7-e9d3506266b2" name="FIP 1"/>
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="ac72fa16-6721-4375-8ef0-e0ffb2d4c064" name="FIP 2"/>
+                <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                    id="851f3891-9fb7-4bc2-b749-c87085d70c29" name="FOP 1" outgoingExchangeItems="#9540008d-0870-48d2-a80a-38122442a7ee"/>
+              </ownedFunctions>
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
+                  id="60209ace-5a55-4c99-b91a-1f079e5b29bb" name="Gather 4" kind="GATHER">
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="936d4c15-ef5d-4855-b4e0-ee809db68fb1" name="FIP 1" incomingExchangeItems="#9540008d-0870-48d2-a80a-38122442a7ee"/>
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="ef477ece-5eee-4982-9da6-41f5f818a597" name="FIP 2" incomingExchangeItems="#8d77ddab-4dc0-4705-8350-29a74ac67204"/>
+                <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                    id="8055ae3c-a0f5-4914-9a99-792392a279a5" name="outCollect Data"
+                    outgoingExchangeItems="#9540008d-0870-48d2-a80a-38122442a7ee #8d77ddab-4dc0-4705-8350-29a74ac67204"/>
+              </ownedFunctions>
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
+                  id="c6b8666f-da86-45b2-a5fd-6fc294686472" name="Acquire Pressure">
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="f8e75648-ad5d-468f-8347-82ed59e7dbbf" name="FIP 1"/>
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="0f7c28bc-26a3-4f69-a0db-34d05ac3e44b" name="inEnvironmental conditions"
+                    incomingExchangeItems="#7fc26f15-3bca-4f2b-9c8b-e9f04f4a89fa"/>
+                <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                    id="b518be9e-e23d-4ba7-a08b-fede9c605b8f" name="FOP 1" outgoingExchangeItems="#8d77ddab-4dc0-4705-8350-29a74ac67204"/>
+              </ownedFunctions>
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
+                  id="fccf6d00-6965-4541-ac18-add25b974500" name="Acquire Pressure">
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="32f5de55-1c58-4cff-8ce8-b4913b5f77dc" name="FIP 1"/>
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="237cedd3-c301-42a6-80d6-380660349a94" name="inEnvironmental conditions"
+                    incomingExchangeItems="#7fc26f15-3bca-4f2b-9c8b-e9f04f4a89fa"/>
+                <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                    id="894871cb-cf30-4466-aa61-8707651814c5" name="FOP 1" outgoingExchangeItems="#8d77ddab-4dc0-4705-8350-29a74ac67204"/>
+              </ownedFunctions>
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
+                  id="6d2b1071-0785-4535-84a7-81c8dc79575e" name="Gather 4" kind="GATHER">
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="b102a2ae-c795-42aa-abce-0e756057e2cd" name="FIP 1" incomingExchangeItems="#9540008d-0870-48d2-a80a-38122442a7ee"/>
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="ae3cdc34-6cad-41f3-ac94-24a80a038dbd" name="FIP 2" incomingExchangeItems="#8d77ddab-4dc0-4705-8350-29a74ac67204"/>
+                <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                    id="233f0121-5570-4786-9b2f-53190fbdbdca" name="outCollect Data"
+                    outgoingExchangeItems="#9540008d-0870-48d2-a80a-38122442a7ee #8d77ddab-4dc0-4705-8350-29a74ac67204"/>
+              </ownedFunctions>
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
+                  id="7f08767f-1a4c-4ed9-9346-bf2cbb5993af" name="Split 3" kind="SPLIT">
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="1e28e6f8-4eb4-4b2d-9a8b-8f99f0b59854" name="FIP 1" incomingExchangeItems="#26e40bd0-f03f-44c2-ad28-a0171801e833"/>
+                <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                    id="244f59f6-5601-4dd3-b8eb-0ac457e104f7" name="FOP 1"/>
+                <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                    id="c404ce9c-f1c8-4e7f-8cba-6faa802efa4d" name="FOP 2"/>
+              </ownedFunctions>
+              <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
+                  id="9ad33343-2eaf-4b78-864e-e06025a7318b" name="Acquire Temperature">
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="74b59ced-2429-4d8c-aebd-a33d1cbd782e" name="FIP 1"/>
+                <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                    id="4b7992e6-cda5-4f61-a76b-bda844e214f4" name="FIP 2"/>
+                <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                    id="eafc6219-b020-4b73-843f-48de1b65bc87" name="FOP 1" outgoingExchangeItems="#9540008d-0870-48d2-a80a-38122442a7ee"/>
               </ownedFunctions>
               <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
                   id="a294387a-03f6-4599-8c35-eeb0ea003ab5" targetElement="#2ddaa13e-e831-4e30-a5b3-54168e7f2f88"
@@ -3315,10 +3714,46 @@
                   target="#506aaed1-f662-4f10-8d3e-5c5a578e48b6" source="#1bd2b0ee-932a-41df-b286-c05af0291f37"/>
               <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
                   id="e746216a-a5fd-4b04-bb40-dbd9c8640907" name="Temperature" target="#70b31ead-2775-4615-8d6f-b5dbae4c2d86"
-                  source="#8bf91493-a63d-4db6-995c-1401642f794c"/>
+                  source="#8bf91493-a63d-4db6-995c-1401642f794c" exchangedItems="#9540008d-0870-48d2-a80a-38122442a7ee"/>
               <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
                   id="ebaf2b3a-30fb-4c4e-885c-d080f34f2e2d" name="Pressure" target="#a41a597a-b59c-4668-ae2c-ecc013233455"
-                  source="#67ba7bd8-b86d-4bb3-b21d-e956019f9b29"/>
+                  source="#67ba7bd8-b86d-4bb3-b21d-e956019f9b29" exchangedItems="#8d77ddab-4dc0-4705-8350-29a74ac67204"/>
+              <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+                  id="ff0c4b3a-21a3-49d0-97f7-63d5f7adef36" name="Temperature Request"
+                  target="#98df79ce-e03f-4707-aacf-352bee763f0b" source="#5f7328be-fde0-4e6c-991f-f5649b35b22e"/>
+              <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+                  id="ad5b22a4-d120-4685-9bc2-03e675a02c21" name="Temperature" target="#e890c76f-9fe2-4b23-a5b0-05655ac65172"
+                  source="#a92a423b-77ad-4133-bf7b-39804709fc69" exchangedItems="#9540008d-0870-48d2-a80a-38122442a7ee"/>
+              <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+                  id="2e2ccb4a-f6e5-4c94-add1-3193fe6a32c6" name="Pressure" target="#794f7ecd-08fa-45c8-89f3-de3cd5a9fec6"
+                  source="#6eec931c-4021-4156-9282-7b8f34620bc3" exchangedItems="#8d77ddab-4dc0-4705-8350-29a74ac67204"/>
+              <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+                  id="2e9d6b4d-1c2a-45de-82fc-f73b4542e0df" name="Pressure Request"
+                  target="#2aa7ea82-4f3b-4a58-aa99-a91f4e07fb86" source="#1f5e7b47-d626-425e-94ed-11e562861c51"/>
+              <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+                  id="561d9239-d287-4206-8e1a-e6d6bf8d590a" name="Temperature Request"
+                  target="#039965bf-c534-4191-96d7-e9d3506266b2" source="#9af062fc-6977-4a77-bd54-5fa95bbb1b60"/>
+              <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+                  id="297472fc-8066-4e80-b1e2-7a1880d580ae" name="Pressure" target="#ef477ece-5eee-4982-9da6-41f5f818a597"
+                  source="#b518be9e-e23d-4ba7-a08b-fede9c605b8f" exchangedItems="#8d77ddab-4dc0-4705-8350-29a74ac67204"/>
+              <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+                  id="02287e2e-69cc-40a7-ae0c-defeb61f4601" name="Temperature" target="#936d4c15-ef5d-4855-b4e0-ee809db68fb1"
+                  source="#851f3891-9fb7-4bc2-b749-c87085d70c29" exchangedItems="#9540008d-0870-48d2-a80a-38122442a7ee"/>
+              <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+                  id="34642e7b-0170-44e0-96a8-e5d76d4025d0" name="Pressure Request"
+                  target="#f8e75648-ad5d-468f-8347-82ed59e7dbbf" source="#aae951d3-c36a-4ffa-b445-f5d98f21d458"/>
+              <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+                  id="b354200b-0b4f-497b-9da8-4a229c9f260c" name="Pressure" target="#ae3cdc34-6cad-41f3-ac94-24a80a038dbd"
+                  source="#894871cb-cf30-4466-aa61-8707651814c5" exchangedItems="#8d77ddab-4dc0-4705-8350-29a74ac67204"/>
+              <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+                  id="50ab7b20-c910-4fbd-ab10-1bddc9ebebdf" name="Pressure Request"
+                  target="#32f5de55-1c58-4cff-8ce8-b4913b5f77dc" source="#c404ce9c-f1c8-4e7f-8cba-6faa802efa4d"/>
+              <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+                  id="8f189fd7-23b0-4f44-ae3c-e822f1f30d65" name="Temperature Request"
+                  target="#74b59ced-2429-4d8c-aebd-a33d1cbd782e" source="#244f59f6-5601-4dd3-b8eb-0ac457e104f7"/>
+              <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+                  id="f317502d-31a6-46f3-821f-a45b6f15ee2c" name="Temperature" target="#b102a2ae-c795-42aa-abce-0e756057e2cd"
+                  source="#eafc6219-b020-4b73-843f-48de1b65bc87" exchangedItems="#9540008d-0870-48d2-a80a-38122442a7ee"/>
             </ownedFunctions>
             <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
                 id="ad2df33f-85bc-4f38-bb20-59335115fe10" name="Configure Data Acquisition">
@@ -3347,7 +3782,7 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
               id="e15b81f8-31a7-43ae-b991-ac7022f8426f" name="Eleborate Current Situation">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="d20101ee-1db9-4799-b452-290e8663512b" name="inCollect Data">
+                id="d20101ee-1db9-4799-b452-290e8663512b" name="inCollect Data" incomingExchangeItems="#9540008d-0870-48d2-a80a-38122442a7ee #8d77ddab-4dc0-4705-8350-29a74ac67204">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
                   id="b430f824-f562-4f9a-acbd-a5ceab2b92c9" targetElement="#69a1dfbe-78ca-46cd-9fed-9bd668cd19e5"
                   sourceElement="#d20101ee-1db9-4799-b452-290e8663512b"/>
@@ -3742,6 +4177,29 @@
               name="On-Board Monitoring Computer" abstractType="#c4002b0d-0260-4aa6-b419-8a606d1b7460">
             <ownedExtensions xsi:type="mass:PartMass" id="_YYatEF01Ee6b9qUGy0bvlA"/>
           </ownedFeatures>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="237933ff-44e1-4512-8dfd-ed265761ebe9"
+              name="On-Board Monitoring Computer" abstractType="#d1dd84c9-e9c9-4ff0-9db8-933f82ed72b3">
+            <ownedExtensions xsi:type="mass:PartMass" id="7b25f753-c527-472c-954b-fc9b8713b2ec"/>
+          </ownedFeatures>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="82c08a4b-96f6-44f0-8631-234660e46aed"
+              name="On-Board Monitoring Computer" abstractType="#4532b36f-4ebe-4ab5-b708-ac52f316f676">
+            <ownedExtensions xsi:type="mass:PartMass" id="8fbc23e2-9512-4ea7-9fdf-3ba76fec5ffc"/>
+          </ownedFeatures>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f0f05b26-cc90-4465-99ab-6bd086130b49"
+              name="Temerature Sensor_1" abstractType="#cf75e953-7df4-4980-8a40-6f10ef10ff45">
+            <ownedExtensions xsi:type="mass:PartMass" id="58bc5eb7-f152-46f6-ab7e-f9d7b01d9c65"
+                value="10" maxValue="20"/>
+          </ownedFeatures>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="a638bccd-7f26-40bc-bb6c-2d60dbba7c7f"
+              name="On-Board Monitoring Computer_1" abstractType="#a6517f3b-f8c3-47c3-86dd-8965dcdb4030">
+            <ownedExtensions xsi:type="mass:PartMass" id="6a4933ee-f6da-47ed-96cc-eaae72848950"/>
+          </ownedFeatures>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="8e7b89e8-f37e-4f48-b124-d129dcec5788"
+              name="Pressure Sensor_1" abstractType="#87482a88-b716-407d-aa6f-46d3945eddf7">
+            <ownedExtensions xsi:type="mass:PartMass" id="3df8161c-7c50-4e2b-9a3c-13fabe2d1a0b"/>
+          </ownedFeatures>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="90eb0a22-444d-4208-8fd0-aed035df1dd3"
+              name="Sounding Ballons_1" abstractType="#b5ea0dd3-7e6b-4c75-9ed1-4b339066517d"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="b8f9fe78-c614-41d7-8b9f-070c3083db7d" targetElement="#f9c01afc-79ef-4edc-b95b-e9ba37f90ab8"
               sourceElement="#d8e7369a-c26a-4e60-9589-ccaa301add55"/>
@@ -3896,6 +4354,8 @@
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f385bfe8-8339-4ba7-aa5f-b34e4c9b3275"
                 name="Radio Emitter" abstractType="#ade425bf-8e0c-46e3-b501-84049494432d"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="a6bd808d-feac-4523-bb8a-b4bee190ae90"
+                name="Parashute" abstractType="#45cee09a-e497-414a-8a6c-12db6505805e"/>
             <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
                 id="e4f1cb1b-832c-40e9-916e-b78d2263c9e1" name="USB" linkEnds="#c1b41f93-8758-4641-8a92-0406a66acb01 #900e647f-c5b8-4510-a253-b302107227c5"/>
             <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
@@ -3905,7 +4365,7 @@
                 id="4be970bf-20a1-4c04-b485-f0361bd2c87f" name="Nano-Computer" kind="HARDWARE_COMPUTER"
                 nature="NODE">
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="c1b41f93-8758-4641-8a92-0406a66acb01" name="PP 2">
+                  id="c1b41f93-8758-4641-8a92-0406a66acb01" name="USB Port">
                 <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
                     id="23d35f8a-4ef6-48bc-8bcc-0f69a4fe102a" targetElement="#8bba6bcf-3ce1-4423-971f-6f41f49fb9ef"
                     sourceElement="#c1b41f93-8758-4641-8a92-0406a66acb01"/>
@@ -3914,25 +4374,16 @@
             <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
                 id="ade425bf-8e0c-46e3-b501-84049494432d" name="Radio Emitter" nature="NODE">
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="900e647f-c5b8-4510-a253-b302107227c5" name="PP 1"/>
+                  id="900e647f-c5b8-4510-a253-b302107227c5" name="USB Port"/>
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="76974c95-c52e-443b-b34b-aaee57c5ba99" name="PP 2"/>
+                  id="76974c95-c52e-443b-b34b-aaee57c5ba99" name="Radio Port"/>
             </ownedPhysicalComponents>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="45cee09a-e497-414a-8a6c-12db6505805e" name="Parashute" nature="NODE"/>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="cfb121bd-5f07-4499-ad9f-4f4ab300192c" name="Ground Station" kind="HARDWARE"
               nature="NODE">
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="9f977c77-364b-4304-a00a-1ddd7360eb90"
-                name="Publication Server" abstractType="#6fad3917-07dc-468d-98f4-de33662cb32f">
-              <ownedExtensions xsi:type="mass:PartMass" id="_D0nR0F01Ee6b9qUGy0bvlA"
-                  value="30" maxValue="100"/>
-              <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
-                  id="9af77a14-a72d-4c63-b2ed-efe3eb62234c" deployedElement="#3cf6db10-8062-4072-abe1-491081078af0"
-                  location="#9f977c77-364b-4304-a00a-1ddd7360eb90"/>
-              <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
-                  id="3ab74c78-e238-4b94-970f-696d48fb0403" deployedElement="#0502f26b-dded-40ca-872e-ba46aa4f939b"
-                  location="#9f977c77-364b-4304-a00a-1ddd7360eb90"/>
-            </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="0cecfdb8-3109-4f86-a433-ac6396ac7ad2"
                 name="Processing Server" abstractType="#b748a842-7b82-4e66-8646-a879c40fabe7">
               <ownedExtensions xsi:type="mass:PartMass" id="_M9XmEF01Ee6b9qUGy0bvlA"
@@ -3943,11 +4394,19 @@
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="6ef11864-32c7-4fc6-a38a-bd9d558c8fd7"
                 name="Radio Receiver" abstractType="#fe6f856d-cf9d-48cc-a3e5-9557befaf91e"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="9f977c77-364b-4304-a00a-1ddd7360eb90"
+                name="Publication Server" abstractType="#6fad3917-07dc-468d-98f4-de33662cb32f">
+              <ownedExtensions xsi:type="mass:PartMass" id="_D0nR0F01Ee6b9qUGy0bvlA"
+                  value="30" maxValue="100"/>
+              <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                  id="3ab74c78-e238-4b94-970f-696d48fb0403" deployedElement="#0502f26b-dded-40ca-872e-ba46aa4f939b"
+                  location="#9f977c77-364b-4304-a00a-1ddd7360eb90"/>
+              <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                  id="9af77a14-a72d-4c63-b2ed-efe3eb62234c" deployedElement="#3cf6db10-8062-4072-abe1-491081078af0"
+                  location="#9f977c77-364b-4304-a00a-1ddd7360eb90"/>
+            </ownedFeatures>
             <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
                 id="4dba89c1-ce33-4c13-9984-6f4fdaef34d7" name="Ethernet" linkEnds="#891f5890-38f4-47e5-b1e2-2e389c0a5d62 #75c9a96d-03b9-468b-adfe-83831653dce5"/>
-            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-                id="6fad3917-07dc-468d-98f4-de33662cb32f" name="Publication Server"
-                kind="HARDWARE_COMPUTER" nature="NODE"/>
             <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
                 id="b748a842-7b82-4e66-8646-a879c40fabe7" name="Processing Server"
                 kind="HARDWARE_COMPUTER" nature="NODE">
@@ -3965,6 +4424,9 @@
               <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                   id="6f3c447a-4f22-4e6f-a537-a0d8870cd5b2" name="PP 2"/>
             </ownedPhysicalComponents>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="6fad3917-07dc-468d-98f4-de33662cb32f" name="Publication Server"
+                kind="HARDWARE_COMPUTER" nature="NODE"/>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="10a00009-47b0-45e3-a19d-640c4ae8618a" name="Temerature Sensor" nature="BEHAVIOR">
@@ -4022,6 +4484,117 @@
                   id="f0b7f018-3925-4558-bb99-373abca75173" targetElement="#9dc8c43f-9599-4505-86b2-e8c420a2ef15"
                   sourceElement="#8bba6bcf-3ce1-4423-971f-6f41f49fb9ef"/>
             </ownedFeatures>
+          </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="d1dd84c9-e9c9-4ff0-9db8-933f82ed72b3" name="On-Board Monitoring Computer"
+              nature="BEHAVIOR">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="14dfcda9-87d7-4259-85be-d967cd08e548" targetElement="#55bfbaa0-3399-4343-b6cf-69eea3c085f6"
+                sourceElement="#d1dd84c9-e9c9-4ff0-9db8-933f82ed72b3"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="d6a7dd1f-d18d-4eba-89f3-48e4a109b8fd" targetElement="#6dc12bb2-02de-4698-b045-469289b34d12"
+                sourceElement="#d1dd84c9-e9c9-4ff0-9db8-933f82ed72b3"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                id="53519ffc-508e-4a4a-80bf-ffc96dc00dea" name="CP 1" orientation="OUT"
+                kind="FLOW">
+              <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
+                  id="63976cca-fa5e-42ae-afd2-8aaacac8cf99" targetElement="#4749ac54-3e5a-4902-bdeb-5834e75e344c"
+                  sourceElement="#53519ffc-508e-4a4a-80bf-ffc96dc00dea"/>
+            </ownedFeatures>
+          </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="4532b36f-4ebe-4ab5-b708-ac52f316f676" name="On-Board Monitoring Computer"
+              nature="BEHAVIOR">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="34c47661-3cb6-4565-ac51-85a19336eb2e" targetElement="#976c2471-cc0e-4332-b866-5367e12b07fc"
+                sourceElement="#4532b36f-4ebe-4ab5-b708-ac52f316f676"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="e28d1d2b-047b-47c1-b4ef-e838355d8780" targetElement="#60209ace-5a55-4c99-b91a-1f079e5b29bb"
+                sourceElement="#4532b36f-4ebe-4ab5-b708-ac52f316f676"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                id="798c2e60-5600-4a90-a4ca-aee548426edd" name="CP 1" orientation="OUT"
+                kind="FLOW">
+              <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
+                  id="e6016b6f-3516-4ef5-bd13-0dd0b4400623" targetElement="#8055ae3c-a0f5-4914-9a99-792392a279a5"
+                  sourceElement="#798c2e60-5600-4a90-a4ca-aee548426edd"/>
+            </ownedFeatures>
+          </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="cf75e953-7df4-4980-8a40-6f10ef10ff45" name="Temerature Sensor_1"
+              nature="BEHAVIOR">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="921b9e9d-f462-4c76-b61a-2f72fed05a1c" targetElement="#9ad33343-2eaf-4b78-864e-e06025a7318b"
+                sourceElement="#cf75e953-7df4-4980-8a40-6f10ef10ff45"/>
+          </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="a6517f3b-f8c3-47c3-86dd-8965dcdb4030" name="On-Board Monitoring Computer_1"
+              nature="BEHAVIOR">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="779b931e-aed3-4249-b6de-8adc2a95de98" targetElement="#7f08767f-1a4c-4ed9-9346-bf2cbb5993af"
+                sourceElement="#a6517f3b-f8c3-47c3-86dd-8965dcdb4030"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="3c2a71bd-3c26-41bc-8941-6ee58eb11d85" targetElement="#6d2b1071-0785-4535-84a7-81c8dc79575e"
+                sourceElement="#a6517f3b-f8c3-47c3-86dd-8965dcdb4030"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                id="6f274340-0b23-44d7-936c-b995305fb2ce" name="CP 1" orientation="OUT"
+                kind="FLOW">
+              <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
+                  id="0248476e-d2db-452f-a572-7192500ffc1e" targetElement="#233f0121-5570-4786-9b2f-53190fbdbdca"
+                  sourceElement="#6f274340-0b23-44d7-936c-b995305fb2ce"/>
+            </ownedFeatures>
+          </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="b5ea0dd3-7e6b-4c75-9ed1-4b339066517d" name="Sounding Ballons_1"
+              kind="HARDWARE" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="05930a17-9c29-4e44-bb3f-3004401180a1"
+                name="Sensor-Holder_1" abstractType="#948c7d57-c0fa-4128-a333-5d4d27fc13e3">
+              <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                  id="86aec6ef-f6d2-4d74-81f4-90e4385dc8c7" deployedElement="#f0f05b26-cc90-4465-99ab-6bd086130b49"
+                  location="#05930a17-9c29-4e44-bb3f-3004401180a1"/>
+              <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                  id="54cbf82a-7b1d-48b1-b6ce-93d6f8a814db" deployedElement="#8e7b89e8-f37e-4f48-b124-d129dcec5788"
+                  location="#05930a17-9c29-4e44-bb3f-3004401180a1"/>
+            </ownedFeatures>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="e2510a6a-1401-47e5-9035-cdb4c7d99344"
+                name="Nano-Computer_1" abstractType="#7ffdcd0f-c19e-458b-9a0c-e430e533b2ae">
+              <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                  id="60d9ba03-ba65-4853-8b0f-42b0132a1267" deployedElement="#a638bccd-7f26-40bc-bb6c-2d60dbba7c7f"
+                  location="#e2510a6a-1401-47e5-9035-cdb4c7d99344"/>
+            </ownedFeatures>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="fabee03f-f56c-4c4c-a989-3541507e8689"
+                name="Radio Emitter_1" abstractType="#da99f85c-e0c7-43f0-b7c5-0b94e65550de"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="61b51ffb-e89b-46e3-8e87-7cc18ec1a4d9"
+                name="Parashute_1" abstractType="#11a16437-eee2-4000-b571-7cc0a2320af8"/>
+            <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+                id="a4840f6a-42d0-4b1b-acba-6a51d9a24c91" name="USB" linkEnds="#6a890d37-23ed-45b5-ae58-1039d1c71953 #e65adf8d-32ef-4423-9636-28546763e422"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="948c7d57-c0fa-4128-a333-5d4d27fc13e3" name="Sensor-Holder_1" kind="HARDWARE"
+                nature="NODE"/>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="7ffdcd0f-c19e-458b-9a0c-e430e533b2ae" name="Nano-Computer_1" kind="HARDWARE_COMPUTER"
+                nature="NODE">
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="6a890d37-23ed-45b5-ae58-1039d1c71953" name="USB Port_1">
+                <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                    id="bbc84875-34cc-4a67-a1c5-235c09682519" targetElement="#6f274340-0b23-44d7-936c-b995305fb2ce"
+                    sourceElement="#6a890d37-23ed-45b5-ae58-1039d1c71953"/>
+              </ownedFeatures>
+            </ownedPhysicalComponents>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="da99f85c-e0c7-43f0-b7c5-0b94e65550de" name="Radio Emitter_1" nature="NODE">
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="e65adf8d-32ef-4423-9636-28546763e422" name="USB Port_1"/>
+              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                  id="f18f7801-067f-4d94-a9d9-3c7bf9fd9253" name="Radio Port_1"/>
+            </ownedPhysicalComponents>
+            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+                id="11a16437-eee2-4000-b571-7cc0a2320af8" name="Parashute_1" nature="NODE"/>
+          </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="87482a88-b716-407d-aa6f-46d3945eddf7" name="Pressure Sensor_1" nature="BEHAVIOR">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="e9acc128-a5e3-4c30-8f80-1eda9a6f7d9c" targetElement="#fccf6d00-6965-4541-ac18-add25b974500"
+                sourceElement="#87482a88-b716-407d-aa6f-46d3945eddf7"/>
           </ownedPhysicalComponents>
         </ownedPhysicalComponents>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
